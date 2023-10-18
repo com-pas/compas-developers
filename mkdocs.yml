@@ -1,0 +1,11 @@
+site_name: CoMPAS Developers
+
+nav:
+  - Home: index.md
+  - Guides: guides.md
+  - Architecture: architecture.md
+  - About: about.md
+
+theme:
+  name: mkdocs
+  nav_style: dark
