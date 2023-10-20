@@ -1,0 +1,17 @@
+@startwbs
+!theme bluegray
+
+skin rose
+
+* CoMPAS Ecosystem
+** OpenSCD
+***< OpenSCD Plugins
+***> CoMPAS Plugins
+** CoMPAS Sitipe Service
+** CoMPAS SCL Data Service
+** CoMPAS SCL Auto Alignment
+** CoMPAS SCL Validator
+** CoMPAS CIM Mapping
+
+@endwbs
+
