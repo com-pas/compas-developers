@@ -9,3 +9,16 @@ nav:
 theme:
   name: mkdocs
   nav_style: dark
+
+
+plugins:
+  - search
+  - build_plantuml:
+      render: 'server'
+      server: 'http://www.plantuml.com/plantuml'
+      output_format: 'svg'
+      allow_multiple_roots: false 
+      diagram_root: 'docs/diagrams' 
+      output_folder: 'dist'
+      input_folder: 'src'
+      input_extensions: ''
